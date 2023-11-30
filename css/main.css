@@ -1,0 +1,83 @@
+body {
+  font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+  background-color: bisque;
+  color: #702323;
+  font-size: 18px;
+}
+
+p {
+  color: #333;
+}
+
+h1,
+h3 {
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  border-bottom: solid 2px #333;
+}
+
+.aboutme-title {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo-site {
+  font-size: 100px;
+  font-weight: bold;
+  color: brown;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.logo {
+  width: 100px;
+  max-width: 100%;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+
+.aboutme-info {
+  width: 800px;
+}
+
+.aboutma-img {
+  width: 275px;
+  display: block;
+  max-width: 100%;
+}
+
+.line {
+  width: 800px;
+  height: 4px;
+  background-color: brown;
+  margin: 50px auto 0;
+}
+
+.forguest {
+  padding: 100px 0;
+}
+
+.forguest-title {
+  font-size: 30px;
+  padding: 0;
+  margin-bottom: 30px;
+}
